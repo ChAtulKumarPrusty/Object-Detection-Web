@@ -5,7 +5,7 @@ import numpy as np
 app = Flask(__name__)
 
 # Global variables for object detection
-cap_index = 1  # Default camera index
+cap_index = 0  # Default camera index
 cap = cv.VideoCapture(cap_index)
 confThreshold = 0.5  # Confidence threshold (default)
 whT = 320  # Width and height for YOLO model input
